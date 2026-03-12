@@ -2,10 +2,14 @@ import React from 'react'
 import LandingPage from './components/landing/LandingPage'
 import Player from './components/player/Player'
 import { Routes, Route } from 'react-router-dom'
+import Nav from './components/landing/Nav'
 
 const App = () => {
   return (
     <div>
+
+      <Nav />
+
 
 
       <Routes>

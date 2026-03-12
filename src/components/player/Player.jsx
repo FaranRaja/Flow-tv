@@ -26,9 +26,23 @@ const Player = () => {
 
   return (
     <div className='player'>
-      <Nav />
+      
+      
       <div className="stream">
             <video ref={videoRef} controls width="1200" />
+      </div>
+
+
+    <div className="content">
+      <div className="channel-logo">
+        <img src="https://cdn.dribbble.com/userupload/4941237/file/still-418f75c4e8ab72a58728ae827d374279.gif" alt="" className='channel-logo-img'/>
+      </div>
+
+      <div className="channel-content">
+        <h4>Red Bull TV</h4>
+        <h5>LIVE</h5>
+        <span>Sports & Entertainment</span>
+      </div>
       </div>
       
     </div>
