@@ -1,0 +1,106 @@
+*{
+  margin: 0px;
+  padding: 0px;
+
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.nav{
+  width: 100%;
+  height: 10vh;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+
+.logo{
+  
+  height: 10vh;
+  
+}
+
+.nav-c{
+   color: white;
+   display: flex;
+   align-items: center;
+   margin-right: 40px;
+   gap: 20px;
+}
+
+
+.search-icon{
+
+   width: 20px;
+  height: 20px;
+
+}
+
+.profile-icon{
+ 
+  width: 50px;
+  height: 50px;
+  
+  
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+
+.home{
+  height: 100vh;
+}
+
+.cover{
+  position: relative;
+  height: 70%;
+}
+
+
+.cover-img{
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.watch{
+  background-color: #000080;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+
+  width: 200px;
+  height: 50px;
+
+  position: absolute;
+  top: 80%;
+  left: 45%;
+}
+
+
+.player{
+  background-color: #061E29;
+  height: 100vh;
+}
+
+
+.stream{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+}
+
+video{
+  border-radius: 20px;
+}
